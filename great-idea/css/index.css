@@ -70,24 +70,29 @@ h1, h2, h3, h4, h5 {
 	margin: auto;
 }
 
-header .nav-container {
+header {
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid purple; 
 }
 
-.nav-container nav {
-	
+header nav {
+	border: 1px solid red;
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
 }
 
-.nav-container nav a {
-	margin-right: 45px;
-	vertical-align: middle;
+header nav a {
 	color: #666;
 	text-decoration: none;
 }
 
-.nav-container img {
-
+header a img{
+	border: 1px solid red;
+	padding: 5px;
 }
 
 .hero {
