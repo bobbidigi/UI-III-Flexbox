@@ -75,12 +75,13 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid purple; 
+	border: 1px solid purple;
+	padding: 25px 0;
 }
 
 header nav {
 	border: 1px solid red;
-	width: 70%;
+	width: 60%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -88,12 +89,15 @@ header nav {
 header nav a {
 	color: #666;
 	text-decoration: none;
+	font-size: 13px;
 }
 
-header a img{
+header a img {
 	border: 1px solid red;
-	padding: 5px;
+	/* height: 100%; */
 }
+
+
 
 .hero {
 	width: 100%;
