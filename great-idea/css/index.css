@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 800px;
+	margin: auto;
+}
+nav {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid pink;
+	padding: 20px 0;
+}
+ nav a {
+	border: 1px solid blue;
+	vertical-align: middle;
+	color: #666;
+	text-decoration: none;
+}
+
+.nav-container img {}
+
+.hero {
+	width: 100%;
+	padding: 2.5em 1em;
+	border: 1px solid pink;
+	display: flex;
+	align-items: center;
+}
+
+.hero .hero-text {
+	text-align: center;
+	width: 60%;
+	border: 1px solid blue; 
+}
+
+.hero .hero-text h1 {
+	font-size: 52px;
+}
+
+.hero .hero-text a {
+	border: 1px solid #666;
+	font-size: 15px;
+	color: black;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 1px 22px;
+}
+.services-header-img{
+	width: 100%;
+}
+
+.hero .hero-image {
+	width: 39%;
+	border: 1px solid blue;
+}
+
+.hero .hero-image img {
+	width: 100%;
+}
+.section2, .section3{
+	display: flex;
+}
+.section2 section {
+	width: 49%;
+	line-height: 1.15;
+	margin: 0 auto;
+	padding: 10px 10px 10px 0;
+}
+
+.section3 section {
+	width: 32%;
+	line-height: 1.15;
+	margin: 0 auto;
+	padding: 10px 10px 10px 0;
+}
+
+.middle-img {
+	width: 100%;
+	padding: 20px 0;
+}
+
+.contact {
+	padding: 0 10px;
+}
+
+.contact p {
+	line-height: 1.75;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+}
+
+.col .row{
+	display: flex;
+	justify-content: space-between;
+}
+
+.col .row section{
+	width: 47%;
+	background: rgb(238, 237, 237);
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px 0;
+}
+.col .row section a{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 10px 20px;
+	margin-top: 15px;
+	background: #fff;
+	border-radius: 7px;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+.row2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row2 section {
+	padding: 25px 0;
+	width: 48%;
+}
+
+.row2 img {
+	width: 48%;
+}
+
+.row2 ul {
+	margin: 20px 0;
+}
+
+.row2 ul li {
+	list-style-type: square;
+	margin-left: 17px;
+}
+
+hr {
+	background: black;
+	padding: .5px;
+	margin-bottom: 20px;
+}
+
+footer {
+	padding: 20px 0;
+	width: 100%;
+	text-align: center;
+}	
